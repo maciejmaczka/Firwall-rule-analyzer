@@ -1,0 +1,7 @@
+
+object name : Honeypot
+range 0 : 190.160.1.1            192.168.1.40
+range 1 : 192.180.1.2            192.180.1.10
+range 2 : 192.180.5.2            192.180.5.10
+
+Operation completed successfully

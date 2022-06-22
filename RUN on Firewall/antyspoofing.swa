@@ -1,0 +1,19 @@
+ Interface Topology (B[m> [1m[31mfw
+(B[m --------------------------------------------------------------------------------
+ eth0 > 192.168.10.101
+
+	Calculated Interface Topology 
+	0.0.0.0 - 67.8.8.255
+	67.8.10.0 - 126.255.255.255
+	128.0.0.0 - 223.255.255.255
+	240.0.0.0 - 255.255.255.254
+
+	Address Spoofing Protection: Enabled (Prevent Mode) - External Interface
+
+ eth1 > 67.8.9.1
+
+	Calculated Interface Topology 
+	67.8.9.0 - 67.8.9.255
+
+	Address Spoofing Protection: Enabled (Prevent Mode) - Internal Interface
+
