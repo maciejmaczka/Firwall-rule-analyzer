@@ -1,0 +1,156 @@
+{
+  "uid": "902378ef-f149-4818-83dc-1da9195f182b",
+  "type": "access-rule",
+  "number": "24",
+  "track": "Log",
+  "layer": "AASerivce Network",
+  "track_per_session": false,
+  "track_per_connection": true,
+  "track_accounting": false,
+  "track_firewall_session": false,
+  "track_alert": "alert",
+  "source": [
+    {
+      "uid": "5b124634-6497-44a5-ac9e-bfe2c5ab3235",
+      "name": "ip_10.1.159.5",
+      "type": "host",
+      "ipv4": "10.1.159.5"
+    }
+  ],
+  "source_range": [
+    {
+      "name": "ip_10.1.159.5",
+      "type": "host",
+      "address": "10.1.159.5",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": true,
+  "destination": [
+    {
+      "uid": "a080bfc1-8135-4f18-8ddb-1a64c69d331b",
+      "name": "ip_10.1.159.46",
+      "type": "host",
+      "ipv4": "10.1.159.46"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": "ip_10.1.159.46",
+      "type": "host",
+      "address": "10.1.159.46",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": true,
+  "service": [
+    {
+      "uid": "2c970c2b-84a3-40b5-ab0e-83244dd47bcd",
+      "name": "AOL_Messenger",
+      "type": "service-group",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "ICQ_locator",
+      "type": "service-udp",
+      "start": "4000",
+      "end": "4000",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "AOL",
+      "type": "service-tcp",
+      "start": "5190",
+      "end": "5190",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": false,
+  "action": "Drop",
+  "action_layer": "",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "any",
+  "hits_level": "zero",
+  "hits_value": "0",
+  "hits_percent": "0%",
+  "comment": "",
+  "name": "",
+  "enabled": false,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "FW-WAW-01",
+      "uid": "b0b82b98-9837-4be2-8a53-a6e730a89f03"
+    }
+  ],
+  "rule_creator": "admin",
+  "rule_creation_time": 1629729018624,
+  "rule_modifier": "admin",
+  "rule_modify_time": 1629729018624,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"source-negate\":true,\"destination-negate\":true,\"comments\":\"\",\"destination\":[{\"uid\":\"a080bfc1-8135-4f18-8ddb-1a64c69d331b\",\"ipv4-address\":\"10.1.159.46\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.46\",\"type\":\"host\"}],\"meta-info\":{\"creator\":\"admin\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-08-23T16:30+0200\",\"posix\":1629729018624},\"creation-time\":{\"iso-8601\":\"2021-08-23T16:30+0200\",\"posix\":1629729018624},\"lock\":\"unlocked\",\"last-modifier\":\"admin\"},\"service-negate\":false,\"source\":[{\"uid\":\"5b124634-6497-44a5-ac9e-bfe2c5ab3235\",\"ipv4-address\":\"10.1.159.5\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.5\",\"type\":\"host\"}],\"type\":\"access-rule\",\"content-direction\":\"any\",\"content\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"enabled\":true,\"hits\":{\"level\":\"zero\",\"percentage\":\"0%\",\"value\":0},\"uid\":\"902378ef-f149-4818-83dc-1da9195f182b\",\"rule-number\":24,\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"2c970c2b-84a3-40b5-ab0e-83244dd47bcd\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"AOL_Messenger\",\"type\":\"service-group\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"action\":{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c473\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Drop\",\"type\":\"RulebaseAction\"},\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"b0b82b98-9837-4be2-8a53-a6e730a89f03\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"FW-WAW-01\",\"type\":\"simple-gateway\"}],\"track\":{\"per-session\":false,\"per-connection\":true,\"alert\":\"alert\",\"enable-firewall-session\":false,\"accounting\":false,\"type\":{\"uid\":\"598ead32-aa42-4615-90ed-f51a5928d41d\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Log\",\"type\":\"Track\"}},\"action-settings\":{},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}

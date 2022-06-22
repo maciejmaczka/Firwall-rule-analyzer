@@ -1,0 +1,624 @@
+{
+  "uid": "cb98a02d-979c-4f76-803d-5602645df134",
+  "type": "access-rule",
+  "number": "301.2.2",
+  "track": "Detailed Log",
+  "layer": "from AmazonAlexaSmartSpeaker#################################################",
+  "track_per_session": true,
+  "track_per_connection": true,
+  "track_accounting": true,
+  "track_firewall_session": false,
+  "track_alert": "none",
+  "source": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "source_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": false,
+  "destination": [
+    {
+      "uid": "16a5fccd-afaf-4807-9f6e-76b10b703765",
+      "name": "ip_10.1.157.29",
+      "type": "host",
+      "ipv4": "10.1.157.29"
+    },
+    {
+      "uid": "4bce8908-f1b9-4c98-b8e3-fad7de454251",
+      "name": "ip_10.1.158.125",
+      "type": "host",
+      "ipv4": "10.1.158.125"
+    },
+    {
+      "uid": "2ba90925-104b-40ef-b1b0-7d9e9f863791",
+      "name": "ip_10.1.159.39",
+      "type": "host",
+      "ipv4": "10.1.159.39"
+    },
+    {
+      "uid": "0637c26a-5ac5-4c97-bd43-c84ee536f94c",
+      "name": "ip_10.1.155.207",
+      "type": "host",
+      "ipv4": "10.1.155.207"
+    },
+    {
+      "uid": "2580c512-7dcf-4a52-9152-7e525bec73b1",
+      "name": "ip_10.1.157.33",
+      "type": "host",
+      "ipv4": "10.1.157.33"
+    },
+    {
+      "uid": "69eb7876-c606-4226-af01-7caa77dbacc5",
+      "name": "ip_10.1.156.171",
+      "type": "host",
+      "ipv4": "10.1.156.171"
+    },
+    {
+      "uid": "b8867fe5-4c8a-4f59-9357-a86081ec1150",
+      "name": "ip_10.1.158.89",
+      "type": "host",
+      "ipv4": "10.1.158.89"
+    },
+    {
+      "uid": "0a23392e-aed0-44e0-8a39-f70820820123",
+      "name": "ip_10.1.155.177",
+      "type": "host",
+      "ipv4": "10.1.155.177"
+    },
+    {
+      "uid": "9bf3686a-25d5-4a65-aa3d-8227b90706fa",
+      "name": "ip_10.1.159.59",
+      "type": "host",
+      "ipv4": "10.1.159.59"
+    },
+    {
+      "uid": "098560a2-0cab-4b9c-9438-d2f79d61ebed",
+      "name": "ip_10.1.156.248",
+      "type": "host",
+      "ipv4": "10.1.156.248"
+    },
+    {
+      "uid": "84c14eb5-5fe2-4184-b1f3-5532cbd7590a",
+      "name": "ip_10.1.158.9",
+      "type": "host",
+      "ipv4": "10.1.158.9"
+    },
+    {
+      "uid": "8c9703bc-70b3-47df-816d-58f1f7d39941",
+      "name": "ip_10.1.158.180",
+      "type": "host",
+      "ipv4": "10.1.158.180"
+    },
+    {
+      "uid": "4a89f90b-84ad-471c-8532-615e0dd863e1",
+      "name": "ip_10.1.157.204",
+      "type": "host",
+      "ipv4": "10.1.157.204"
+    },
+    {
+      "uid": "8a83e5f0-7716-4751-b85d-90302fe5238f",
+      "name": "ip_10.1.158.91",
+      "type": "host",
+      "ipv4": "10.1.158.91"
+    },
+    {
+      "uid": "8f204471-fd59-4c99-a545-7d7cd9a51f1f",
+      "name": "ip_10.1.157.201",
+      "type": "host",
+      "ipv4": "10.1.157.201"
+    },
+    {
+      "uid": "f2884095-9396-4df0-b57f-4b880c6f91b2",
+      "name": "ip_10.1.158.134",
+      "type": "host",
+      "ipv4": "10.1.158.134"
+    },
+    {
+      "uid": "40952d59-1c97-4766-b269-cdfab20bce7a",
+      "name": "ip_10.1.158.60",
+      "type": "host",
+      "ipv4": "10.1.158.60"
+    },
+    {
+      "uid": "a080bfc1-8135-4f18-8ddb-1a64c69d331b",
+      "name": "ip_10.1.159.46",
+      "type": "host",
+      "ipv4": "10.1.159.46"
+    },
+    {
+      "uid": "410c5ed7-1995-49bc-9baf-cf0244d67063",
+      "name": "ip_10.1.159.53",
+      "type": "host",
+      "ipv4": "10.1.159.53"
+    },
+    {
+      "uid": "0e0aed80-aab4-4693-9e71-5ffaf3dac953",
+      "name": "ip_10.1.156.225",
+      "type": "host",
+      "ipv4": "10.1.156.225"
+    },
+    {
+      "uid": "20500049-2ccf-4f68-8795-1ada176591df",
+      "name": "ip_10.1.158.71",
+      "type": "host",
+      "ipv4": "10.1.158.71"
+    },
+    {
+      "uid": "e1be8629-22df-4bd4-8756-b3d5f2d42c01",
+      "name": "ip_10.1.156.95",
+      "type": "host",
+      "ipv4": "10.1.156.95"
+    },
+    {
+      "uid": "08e1dc2f-b19c-491c-920e-e8671927e416",
+      "name": "ip_10.1.157.128",
+      "type": "host",
+      "ipv4": "10.1.157.128"
+    },
+    {
+      "uid": "2d732dd0-1b0d-45bf-9629-a13b5d8b1a53",
+      "name": "ip_10.1.156.143",
+      "type": "host",
+      "ipv4": "10.1.156.143"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": "ip_10.1.157.29",
+      "type": "host",
+      "address": "10.1.157.29",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.159.53",
+      "type": "host",
+      "address": "10.1.159.53",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.89",
+      "type": "host",
+      "address": "10.1.158.89",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.71",
+      "type": "host",
+      "address": "10.1.158.71",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.156.143",
+      "type": "host",
+      "address": "10.1.156.143",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.60",
+      "type": "host",
+      "address": "10.1.158.60",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.159.59",
+      "type": "host",
+      "address": "10.1.159.59",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.157.33",
+      "type": "host",
+      "address": "10.1.157.33",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.159.46",
+      "type": "host",
+      "address": "10.1.159.46",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.180",
+      "type": "host",
+      "address": "10.1.158.180",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.155.207",
+      "type": "host",
+      "address": "10.1.155.207",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.157.204",
+      "type": "host",
+      "address": "10.1.157.204",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.155.177",
+      "type": "host",
+      "address": "10.1.155.177",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.134",
+      "type": "host",
+      "address": "10.1.158.134",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.156.95",
+      "type": "host",
+      "address": "10.1.156.95",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.157.128",
+      "type": "host",
+      "address": "10.1.157.128",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.156.225",
+      "type": "host",
+      "address": "10.1.156.225",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.156.171",
+      "type": "host",
+      "address": "10.1.156.171",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.91",
+      "type": "host",
+      "address": "10.1.158.91",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.156.248",
+      "type": "host",
+      "address": "10.1.156.248",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.9",
+      "type": "host",
+      "address": "10.1.158.9",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.158.125",
+      "type": "host",
+      "address": "10.1.158.125",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.159.39",
+      "type": "host",
+      "address": "10.1.159.39",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    },
+    {
+      "name": "ip_10.1.157.201",
+      "type": "host",
+      "address": "10.1.157.201",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": false,
+  "service": [
+    {
+      "uid": "97aeb3d4-9aea-11d5-bd16-0090272ccb30",
+      "name": "http",
+      "type": "service-tcp",
+      "port_start": "80",
+      "port_end": "80",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "http",
+      "type": "service-tcp",
+      "start": "80",
+      "end": "80",
+      "protocol": "HTTP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": false,
+  "action": "Accept",
+  "action_layer": "",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "any",
+  "hits_level": "zero",
+  "hits_value": "0",
+  "hits_percent": "0%",
+  "comment": "",
+  "name": "",
+  "enabled": true,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "Policy Targets",
+      "uid": "6c488338-8eec-4103-ad21-cd461ac2c476"
+    }
+  ],
+  "rule_creator": "System",
+  "rule_creation_time": 1624968251137,
+  "rule_modifier": "System",
+  "rule_modify_time": 1624968251137,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"source-negate\":false,\"destination-negate\":false,\"comments\":\"\",\"destination\":[{\"uid\":\"16a5fccd-afaf-4807-9f6e-76b10b703765\",\"ipv4-address\":\"10.1.157.29\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.157.29\",\"type\":\"host\"},{\"uid\":\"4bce8908-f1b9-4c98-b8e3-fad7de454251\",\"ipv4-address\":\"10.1.158.125\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.125\",\"type\":\"host\"},{\"uid\":\"2ba90925-104b-40ef-b1b0-7d9e9f863791\",\"ipv4-address\":\"10.1.159.39\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.39\",\"type\":\"host\"},{\"uid\":\"0637c26a-5ac5-4c97-bd43-c84ee536f94c\",\"ipv4-address\":\"10.1.155.207\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.155.207\",\"type\":\"host\"},{\"uid\":\"2580c512-7dcf-4a52-9152-7e525bec73b1\",\"ipv4-address\":\"10.1.157.33\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.157.33\",\"type\":\"host\"},{\"uid\":\"69eb7876-c606-4226-af01-7caa77dbacc5\",\"ipv4-address\":\"10.1.156.171\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.156.171\",\"type\":\"host\"},{\"uid\":\"b8867fe5-4c8a-4f59-9357-a86081ec1150\",\"ipv4-address\":\"10.1.158.89\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.89\",\"type\":\"host\"},{\"uid\":\"0a23392e-aed0-44e0-8a39-f70820820123\",\"ipv4-address\":\"10.1.155.177\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.155.177\",\"type\":\"host\"},{\"uid\":\"9bf3686a-25d5-4a65-aa3d-8227b90706fa\",\"ipv4-address\":\"10.1.159.59\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.59\",\"type\":\"host\"},{\"uid\":\"098560a2-0cab-4b9c-9438-d2f79d61ebed\",\"ipv4-address\":\"10.1.156.248\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.156.248\",\"type\":\"host\"},{\"uid\":\"84c14eb5-5fe2-4184-b1f3-5532cbd7590a\",\"ipv4-address\":\"10.1.158.9\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.9\",\"type\":\"host\"},{\"uid\":\"8c9703bc-70b3-47df-816d-58f1f7d39941\",\"ipv4-address\":\"10.1.158.180\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.180\",\"type\":\"host\"},{\"uid\":\"4a89f90b-84ad-471c-8532-615e0dd863e1\",\"ipv4-address\":\"10.1.157.204\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.157.204\",\"type\":\"host\"},{\"uid\":\"8a83e5f0-7716-4751-b85d-90302fe5238f\",\"ipv4-address\":\"10.1.158.91\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.91\",\"type\":\"host\"},{\"uid\":\"8f204471-fd59-4c99-a545-7d7cd9a51f1f\",\"ipv4-address\":\"10.1.157.201\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.157.201\",\"type\":\"host\"},{\"uid\":\"f2884095-9396-4df0-b57f-4b880c6f91b2\",\"ipv4-address\":\"10.1.158.134\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.134\",\"type\":\"host\"},{\"uid\":\"40952d59-1c97-4766-b269-cdfab20bce7a\",\"ipv4-address\":\"10.1.158.60\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.60\",\"type\":\"host\"},{\"uid\":\"a080bfc1-8135-4f18-8ddb-1a64c69d331b\",\"ipv4-address\":\"10.1.159.46\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.46\",\"type\":\"host\"},{\"uid\":\"410c5ed7-1995-49bc-9baf-cf0244d67063\",\"ipv4-address\":\"10.1.159.53\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.53\",\"type\":\"host\"},{\"uid\":\"0e0aed80-aab4-4693-9e71-5ffaf3dac953\",\"ipv4-address\":\"10.1.156.225\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.156.225\",\"type\":\"host\"},{\"uid\":\"20500049-2ccf-4f68-8795-1ada176591df\",\"ipv4-address\":\"10.1.158.71\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.158.71\",\"type\":\"host\"},{\"uid\":\"e1be8629-22df-4bd4-8756-b3d5f2d42c01\",\"ipv4-address\":\"10.1.156.95\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.156.95\",\"type\":\"host\"},{\"uid\":\"08e1dc2f-b19c-491c-920e-e8671927e416\",\"ipv4-address\":\"10.1.157.128\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.157.128\",\"type\":\"host\"},{\"uid\":\"2d732dd0-1b0d-45bf-9629-a13b5d8b1a53\",\"ipv4-address\":\"10.1.156.143\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.156.143\",\"type\":\"host\"}],\"meta-info\":{\"creator\":\"System\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-06-29T14:04+0200\",\"posix\":1624968251137},\"creation-time\":{\"iso-8601\":\"2021-06-29T14:04+0200\",\"posix\":1624968251137},\"lock\":\"unlocked\",\"last-modifier\":\"System\"},\"service-negate\":false,\"source\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"type\":\"access-rule\",\"content-direction\":\"any\",\"content\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"enabled\":true,\"hits\":{\"level\":\"zero\",\"percentage\":\"0%\",\"value\":0},\"uid\":\"cb98a02d-979c-4f76-803d-5602645df134\",\"rule-number\":2,\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"97aeb3d4-9aea-11d5-bd16-0090272ccb30\",\"port\":\"80\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"http\",\"type\":\"service-tcp\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"action\":{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c472\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Accept\",\"type\":\"RulebaseAction\"},\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c476\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Policy Targets\",\"type\":\"Global\"}],\"track\":{\"per-session\":true,\"per-connection\":true,\"alert\":\"none\",\"enable-firewall-session\":false,\"accounting\":true,\"type\":{\"uid\":\"d395a3bb-c96c-4781-8017-b9cd0418e982\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Detailed Log\",\"type\":\"Track\"}},\"action-settings\":{\"enable-identity-captive-portal\":false},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}

@@ -1,0 +1,220 @@
+{
+  "uid": "2c818dd6-75ee-4930-a787-35e2906de24d",
+  "type": "access-rule",
+  "number": "26",
+  "track": "None",
+  "layer": "AASerivce Network",
+  "track_per_session": false,
+  "track_per_connection": false,
+  "track_accounting": false,
+  "track_firewall_session": false,
+  "track_alert": "none",
+  "source": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "source_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": false,
+  "destination": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": false,
+  "service": [
+    {
+      "uid": "aace5860-e766-43b7-97de-73897add4d92",
+      "name": "a1",
+      "type": "service-tcp",
+      "port_start": "1000-1010",
+      "port_end": "1000-1010",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    },
+    {
+      "uid": "b75e0961-b0b9-40ca-a3c1-29de970711c9",
+      "name": "b2",
+      "type": "service-tcp",
+      "port_start": "202-203",
+      "port_end": "202-203",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    },
+    {
+      "uid": "5ad51d07-b3b2-45d7-94ee-08f1876a6b20",
+      "name": "b3",
+      "type": "service-tcp",
+      "port_start": "303-307",
+      "port_end": "303-307",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    },
+    {
+      "uid": "4243a841-987b-47fc-992c-1ea0d5149484",
+      "name": "x3",
+      "type": "service-tcp",
+      "port_start": "1000-1010",
+      "port_end": "1000-1010",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "b3",
+      "type": "service-tcp",
+      "start": "303",
+      "end": "307",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "b2",
+      "type": "service-tcp",
+      "start": "202",
+      "end": "203",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "a1",
+      "type": "service-tcp",
+      "start": "1000",
+      "end": "1010",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "x3",
+      "type": "service-tcp",
+      "start": "1000",
+      "end": "1010",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": true,
+  "action": "Drop",
+  "action_layer": "",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "any",
+  "hits_level": "zero",
+  "hits_value": "0",
+  "hits_percent": "0%",
+  "comment": "",
+  "name": "",
+  "enabled": true,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "Policy Targets",
+      "uid": "6c488338-8eec-4103-ad21-cd461ac2c476"
+    }
+  ],
+  "rule_creator": "admin",
+  "rule_creation_time": 1629729019883,
+  "rule_modifier": "admin",
+  "rule_modify_time": 1629729019883,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"source-negate\":false,\"destination-negate\":false,\"comments\":\"\",\"destination\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"meta-info\":{\"creator\":\"admin\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-08-23T16:30+0200\",\"posix\":1629729019883},\"creation-time\":{\"iso-8601\":\"2021-08-23T16:30+0200\",\"posix\":1629729019883},\"lock\":\"unlocked\",\"last-modifier\":\"admin\"},\"service-negate\":true,\"source\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"type\":\"access-rule\",\"content-direction\":\"any\",\"content\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"enabled\":true,\"hits\":{\"level\":\"zero\",\"percentage\":\"0%\",\"value\":0},\"uid\":\"2c818dd6-75ee-4930-a787-35e2906de24d\",\"rule-number\":26,\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"aace5860-e766-43b7-97de-73897add4d92\",\"port\":\"1000-1010\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"a1\",\"type\":\"service-tcp\"},{\"uid\":\"b75e0961-b0b9-40ca-a3c1-29de970711c9\",\"port\":\"202-203\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"b2\",\"type\":\"service-tcp\"},{\"uid\":\"5ad51d07-b3b2-45d7-94ee-08f1876a6b20\",\"port\":\"303-307\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"b3\",\"type\":\"service-tcp\"},{\"uid\":\"4243a841-987b-47fc-992c-1ea0d5149484\",\"port\":\"1000-1010\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"x3\",\"type\":\"service-tcp\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"action\":{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c473\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Drop\",\"type\":\"RulebaseAction\"},\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c476\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Policy Targets\",\"type\":\"Global\"}],\"track\":{\"per-session\":false,\"per-connection\":false,\"alert\":\"none\",\"enable-firewall-session\":false,\"accounting\":false,\"type\":{\"uid\":\"29e53e3d-23bf-48fe-b6b1-d59bd88036f9\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"None\",\"type\":\"Track\"}},\"action-settings\":{},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}

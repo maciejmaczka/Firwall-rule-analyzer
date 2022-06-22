@@ -1,0 +1,138 @@
+{
+  "uid": "5a1ca9d1-7fb1-4ed5-94cf-da3dddcd5a02",
+  "type": "access-rule",
+  "number": "602",
+  "track": "None",
+  "layer": "AASerivce Network",
+  "track_per_session": false,
+  "track_per_connection": false,
+  "track_accounting": false,
+  "track_firewall_session": false,
+  "track_alert": "none",
+  "source": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "source_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": false,
+  "destination": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": false,
+  "service": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "start": "Any",
+      "end": "Any",
+      "protocol": "Any",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": false,
+  "action": "Accept",
+  "action_layer": "",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "85d3df1b-38f5-4215-8606-491ca0623ab0",
+      "name": "Certificate Signing Request File",
+      "type": "CpmiWordsDataType"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "down",
+  "hits_level": "zero",
+  "hits_value": "0",
+  "hits_percent": "0%",
+  "comment": "",
+  "name": "",
+  "enabled": true,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "Policy Targets",
+      "uid": "6c488338-8eec-4103-ad21-cd461ac2c476"
+    }
+  ],
+  "rule_creator": "admin",
+  "rule_creation_time": 1630062984823,
+  "rule_modifier": "admin",
+  "rule_modify_time": 1630062984823,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"source-negate\":false,\"destination-negate\":false,\"comments\":\"\",\"destination\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"meta-info\":{\"creator\":\"admin\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-08-27T13:16+0200\",\"posix\":1630062984823},\"creation-time\":{\"iso-8601\":\"2021-08-27T13:16+0200\",\"posix\":1630062984823},\"lock\":\"unlocked\",\"last-modifier\":\"admin\"},\"service-negate\":false,\"source\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"type\":\"access-rule\",\"content-direction\":\"down\",\"content\":[{\"uid\":\"85d3df1b-38f5-4215-8606-491ca0623ab0\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"Certificate Signing Request File\",\"type\":\"CpmiWordsDataType\"}],\"enabled\":true,\"hits\":{\"level\":\"zero\",\"percentage\":\"0%\",\"value\":0},\"uid\":\"5a1ca9d1-7fb1-4ed5-94cf-da3dddcd5a02\",\"rule-number\":602,\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"action\":{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c472\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Accept\",\"type\":\"RulebaseAction\"},\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c476\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Policy Targets\",\"type\":\"Global\"}],\"track\":{\"per-session\":false,\"per-connection\":false,\"alert\":\"none\",\"enable-firewall-session\":false,\"accounting\":false,\"type\":{\"uid\":\"29e53e3d-23bf-48fe-b6b1-d59bd88036f9\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"None\",\"type\":\"Track\"}},\"action-settings\":{\"enable-identity-captive-portal\":false},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}

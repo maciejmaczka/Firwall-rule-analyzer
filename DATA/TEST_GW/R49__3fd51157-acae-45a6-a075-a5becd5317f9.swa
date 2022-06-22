@@ -1,0 +1,246 @@
+{
+  "uid": "3fd51157-acae-45a6-a075-a5becd5317f9",
+  "type": "access-rule",
+  "number": "49",
+  "track": "None",
+  "layer": "AASerivce Network",
+  "track_per_session": false,
+  "track_per_connection": false,
+  "track_accounting": false,
+  "track_firewall_session": false,
+  "track_alert": "none",
+  "source": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "source_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": false,
+  "destination": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": false,
+  "service": [
+    {
+      "uid": "2b0d1c78-4a2a-4d5c-9d90-47d94227ef61",
+      "name": "test.org",
+      "type": "application-site",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "test.org on HTTP_proxy;",
+      "type": "application-site",
+      "start": "8080",
+      "end": "8080",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "HTTP_proxy;",
+      "app_service_type": "TCP",
+      "app_service_nagate": false,
+      "app_id": "1073741825",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "test.org on HTTPS_proxy;",
+      "type": "application-site",
+      "start": "8080",
+      "end": "8080",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "HTTPS_proxy;",
+      "app_service_type": "TCP",
+      "app_service_nagate": false,
+      "app_id": "1073741825",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "test.org on a2;",
+      "type": "application-site",
+      "start": "1001",
+      "end": "1001",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "a2;",
+      "app_service_type": "TCP",
+      "app_service_nagate": false,
+      "app_id": "1073741825",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "test.org on AH;",
+      "type": "application-site",
+      "start": "ANY",
+      "end": "ANY",
+      "protocol": "51",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "AH;",
+      "app_service_type": "Other",
+      "app_service_nagate": false,
+      "app_id": "1073741825",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "test.org on https;",
+      "type": "application-site",
+      "start": "443",
+      "end": "443",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "https;",
+      "app_service_type": "TCP",
+      "app_service_nagate": false,
+      "app_id": "1073741825",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "test.org on a1;",
+      "type": "application-site",
+      "start": "1000",
+      "end": "1010",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "a1;",
+      "app_service_type": "TCP",
+      "app_service_nagate": false,
+      "app_id": "1073741825",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "test.org on http;",
+      "type": "application-site",
+      "start": "80",
+      "end": "80",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "http;",
+      "app_service_type": "TCP",
+      "app_service_nagate": false,
+      "app_id": "1073741825",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": false,
+  "action": "Drop",
+  "action_layer": "",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "any",
+  "hits_level": "zero",
+  "hits_value": "0",
+  "hits_percent": "0%",
+  "comment": "",
+  "name": "",
+  "enabled": true,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "Policy Targets",
+      "uid": "6c488338-8eec-4103-ad21-cd461ac2c476"
+    }
+  ],
+  "rule_creator": "admin",
+  "rule_creation_time": 1627555309903,
+  "rule_modifier": "admin",
+  "rule_modify_time": 1627555312097,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"source-negate\":false,\"destination-negate\":false,\"comments\":\"\",\"destination\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"meta-info\":{\"creator\":\"admin\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-07-29T12:41+0200\",\"posix\":1627555312097},\"creation-time\":{\"iso-8601\":\"2021-07-29T12:41+0200\",\"posix\":1627555309903},\"lock\":\"unlocked\",\"last-modifier\":\"admin\"},\"service-negate\":false,\"source\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"type\":\"access-rule\",\"content-direction\":\"any\",\"content\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"enabled\":true,\"hits\":{\"level\":\"zero\",\"percentage\":\"0%\",\"value\":0},\"uid\":\"3fd51157-acae-45a6-a075-a5becd5317f9\",\"rule-number\":49,\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"2b0d1c78-4a2a-4d5c-9d90-47d94227ef61\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"test.org\",\"type\":\"application-site\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"action\":{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c473\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Drop\",\"type\":\"RulebaseAction\"},\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c476\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Policy Targets\",\"type\":\"Global\"}],\"track\":{\"per-session\":false,\"per-connection\":false,\"alert\":\"none\",\"enable-firewall-session\":false,\"accounting\":false,\"type\":{\"uid\":\"29e53e3d-23bf-48fe-b6b1-d59bd88036f9\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"None\",\"type\":\"Track\"}},\"action-settings\":{},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}

@@ -1,0 +1,264 @@
+{
+  "uid": "85bb9041-f597-45cf-bdd3-9c5849c5f3f7",
+  "type": "access-rule",
+  "number": "338.2",
+  "track": "Log",
+  "layer": "Network",
+  "track_per_session": true,
+  "track_per_connection": true,
+  "track_accounting": true,
+  "track_firewall_session": false,
+  "track_alert": "none",
+  "source": [
+    {
+      "uid": "54126b01-a4e5-4bc5-bd61-55355de3a9f7",
+      "name": ".rp.pl",
+      "type": "dns-domain"
+    }
+  ],
+  "source_range": [
+    {
+      "name": ".rp.pl",
+      "type": "dns-domain",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": false,
+  "destination": [
+    {
+      "uid": "54126b01-a4e5-4bc5-bd61-55355de3a9f7",
+      "name": ".rp.pl",
+      "type": "dns-domain"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": ".rp.pl",
+      "type": "dns-domain",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": false,
+  "service": [
+    {
+      "uid": "00fa9e3d-a055-0f65-e053-08241dc22da2",
+      "name": "100bao",
+      "type": "application-site",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "100bao on a2",
+      "type": "application-site",
+      "start": "1001",
+      "end": "1001",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "a2",
+      "app_service_type": "TCP",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "100bao on IWbemWCOSmartEnum",
+      "type": "application-site",
+      "start": "ANY",
+      "end": "ANY",
+      "protocol": "17",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "IWbemWCOSmartEnum",
+      "app_service_type": "DCE-RPC",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "100bao on IWbemFetchSmartEnum",
+      "type": "application-site",
+      "start": "ANY",
+      "end": "ANY",
+      "protocol": "17",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "IWbemFetchSmartEnum",
+      "app_service_type": "DCE-RPC",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "100bao on IWbemServices",
+      "type": "application-site",
+      "start": "ANY",
+      "end": "ANY",
+      "protocol": "17",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "IWbemServices",
+      "app_service_type": "DCE-RPC",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "100bao on IenumWbemClassObject",
+      "type": "application-site",
+      "start": "ANY",
+      "end": "ANY",
+      "protocol": "17",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "IenumWbemClassObject",
+      "app_service_type": "DCE-RPC",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "100bao on DCOM-IWbemLevel1Login",
+      "type": "application-site",
+      "start": "ANY",
+      "end": "ANY",
+      "protocol": "17",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "DCOM-IWbemLevel1Login",
+      "app_service_type": "DCE-RPC",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "100bao on DCOM-IRemUnknown",
+      "type": "application-site",
+      "start": "ANY",
+      "end": "ANY",
+      "protocol": "17",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "DCOM-IRemUnknown",
+      "app_service_type": "DCE-RPC",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    },
+    {
+      "name": "100bao on a1",
+      "type": "application-site",
+      "start": "1000",
+      "end": "1010",
+      "protocol": "TCP",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "a1",
+      "app_service_type": "TCP",
+      "app_service_nagate": true,
+      "app_id": "10033971",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": false,
+  "action": "Drop",
+  "action_layer": "",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "any",
+  "hits_level": "medium",
+  "hits_value": "39",
+  "hits_percent": "17%",
+  "comment": "",
+  "name": "",
+  "enabled": true,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "Policy Targets",
+      "uid": "6c488338-8eec-4103-ad21-cd461ac2c476"
+    }
+  ],
+  "rule_creator": "admin",
+  "rule_creation_time": 1624985605479,
+  "rule_modifier": "admin",
+  "rule_modify_time": 1625058751141,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"source-negate\":false,\"destination-negate\":false,\"comments\":\"\",\"destination\":[{\"uid\":\"54126b01-a4e5-4bc5-bd61-55355de3a9f7\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\".rp.pl\",\"type\":\"dns-domain\"}],\"meta-info\":{\"creator\":\"admin\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-06-30T15:12+0200\",\"posix\":1625058751141},\"creation-time\":{\"iso-8601\":\"2021-06-29T18:53+0200\",\"posix\":1624985605479},\"lock\":\"unlocked\",\"last-modifier\":\"admin\"},\"service-negate\":false,\"source\":[{\"uid\":\"54126b01-a4e5-4bc5-bd61-55355de3a9f7\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\".rp.pl\",\"type\":\"dns-domain\"}],\"type\":\"access-rule\",\"content-direction\":\"any\",\"content\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"enabled\":true,\"hits\":{\"level\":\"medium\",\"percentage\":\"17%\",\"first-date\":{\"iso-8601\":\"2021-06-29T18:58+0200\",\"posix\":1624985905000},\"value\":39,\"last-date\":{\"iso-8601\":\"2021-06-29T19:16+0200\",\"posix\":1624986961000}},\"uid\":\"85bb9041-f597-45cf-bdd3-9c5849c5f3f7\",\"rule-number\":2,\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"00fa9e3d-a055-0f65-e053-08241dc22da2\",\"domain\":{\"uid\":\"8bf4ac51-2df7-40e1-9bce-bedbedbedbed\",\"domain-type\":\"data domain\",\"name\":\"APPI Data\"},\"name\":\"100bao\",\"type\":\"application-site\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"action\":{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c473\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Drop\",\"type\":\"RulebaseAction\"},\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c476\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Policy Targets\",\"type\":\"Global\"}],\"track\":{\"per-session\":true,\"per-connection\":true,\"alert\":\"none\",\"enable-firewall-session\":false,\"accounting\":true,\"type\":{\"uid\":\"598ead32-aa42-4615-90ed-f51a5928d41d\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Log\",\"type\":\"Track\"}},\"action-settings\":{},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}

@@ -1,0 +1,138 @@
+{
+  "uid": "dbbf4e61-4d3d-4a4d-a907-09084a1b02e0",
+  "type": "access-rule",
+  "number": "14",
+  "track": "None",
+  "layer": "AASerivce Network",
+  "track_per_session": false,
+  "track_per_connection": true,
+  "track_accounting": false,
+  "track_firewall_session": false,
+  "track_alert": "none",
+  "source": [
+    {
+      "uid": "b13a05a2-5c64-44bd-b657-d5020cb2f916",
+      "name": ".pudelek.pl",
+      "type": "dns-domain"
+    }
+  ],
+  "source_range": [
+    {
+      "name": ".pudelek.pl",
+      "type": "dns-domain",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": false,
+  "destination": [
+    {
+      "uid": "b13a05a2-5c64-44bd-b657-d5020cb2f916",
+      "name": ".pudelek.pl",
+      "type": "dns-domain"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": ".pudelek.pl",
+      "type": "dns-domain",
+      "address": "",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": false,
+  "service": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "Any",
+      "type": "CpmiAnyObject",
+      "start": "Any",
+      "end": "Any",
+      "protocol": "Any",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": false,
+  "action": "Inner Layer",
+  "action_layer": "Network",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "any",
+  "hits_level": "zero",
+  "hits_value": "0",
+  "hits_percent": "0%",
+  "comment": "",
+  "name": "",
+  "enabled": true,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "Policy Targets",
+      "uid": "6c488338-8eec-4103-ad21-cd461ac2c476"
+    }
+  ],
+  "rule_creator": "admin",
+  "rule_creation_time": 1629729053012,
+  "rule_modifier": "admin",
+  "rule_modify_time": 1629797293417,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"destination-negate\":false,\"destination\":[{\"uid\":\"b13a05a2-5c64-44bd-b657-d5020cb2f916\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\".pudelek.pl\",\"type\":\"dns-domain\"}],\"meta-info\":{\"creator\":\"admin\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-08-24T11:28+0200\",\"posix\":1629797293417},\"creation-time\":{\"iso-8601\":\"2021-08-23T16:30+0200\",\"posix\":1629729053012},\"lock\":\"unlocked\",\"last-modifier\":\"admin\"},\"source\":[{\"uid\":\"b13a05a2-5c64-44bd-b657-d5020cb2f916\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\".pudelek.pl\",\"type\":\"dns-domain\"}],\"type\":\"access-rule\",\"content-direction\":\"any\",\"content\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"enabled\":true,\"uid\":\"dbbf4e61-4d3d-4a4d-a907-09084a1b02e0\",\"rule-number\":14,\"action\":{\"uid\":\"ea28da66-c5ed-11e2-bc66-aa5c6188709b\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Inner Layer\",\"type\":\"Global\"},\"track\":{\"per-session\":false,\"per-connection\":true,\"alert\":\"none\",\"enable-firewall-session\":false,\"accounting\":false,\"type\":{\"uid\":\"29e53e3d-23bf-48fe-b6b1-d59bd88036f9\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"None\",\"type\":\"Track\"}},\"source-negate\":false,\"comments\":\"\",\"service-negate\":false,\"hits\":{\"level\":\"zero\",\"percentage\":\"0%\",\"value\":0},\"inline-layer\":{\"uid\":\"63b7fe60-76d2-4287-bca5-21af87337b0a\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"Network\",\"type\":\"access-layer\"},\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c476\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Policy Targets\",\"type\":\"Global\"}],\"action-settings\":{},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}

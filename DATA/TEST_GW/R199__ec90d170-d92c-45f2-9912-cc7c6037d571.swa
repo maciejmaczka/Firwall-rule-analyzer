@@ -1,0 +1,141 @@
+{
+  "uid": "ec90d170-d92c-45f2-9912-cc7c6037d571",
+  "type": "access-rule",
+  "number": "199",
+  "track": "Log",
+  "layer": "AASerivce Network",
+  "track_per_session": false,
+  "track_per_connection": true,
+  "track_accounting": false,
+  "track_firewall_session": false,
+  "track_alert": "none",
+  "source": [
+    {
+      "uid": "ae2fb0c3-e531-433c-abd2-c9a4f7e8472f",
+      "name": "ip_10.1.159.75",
+      "type": "host",
+      "ipv4": "10.1.159.75"
+    }
+  ],
+  "source_range": [
+    {
+      "name": "ip_10.1.159.75",
+      "type": "host",
+      "address": "10.1.159.75",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "source_negate": true,
+  "destination": [
+    {
+      "uid": "fffc4ec9-43f4-469a-b5f3-c1153f3ccfd5",
+      "name": "ip_10.1.159.47",
+      "type": "host",
+      "ipv4": "10.1.159.47"
+    }
+  ],
+  "destination_range": [
+    {
+      "name": "ip_10.1.159.47",
+      "type": "host",
+      "address": "10.1.159.47",
+      "range_start": "",
+      "range_end": "",
+      "network": "",
+      "network_subnet": "",
+      "ckp_interface": "",
+      "object_count": 0,
+      "extra_options": 0,
+      "suppres_view": false,
+      "c_range_start": 0,
+      "c_range_stop": 0
+    }
+  ],
+  "destination_negate": true,
+  "service": [
+    {
+      "uid": "97aeb44f-9aea-11d5-bd16-0090272ccb30",
+      "name": "AOL",
+      "type": "service-tcp",
+      "port_start": "5190",
+      "port_end": "5190",
+      "icmptype": "",
+      "match_protocol": false,
+      "cluster_sync": false
+    }
+  ],
+  "service_range": [
+    {
+      "name": "AOL",
+      "type": "service-tcp",
+      "start": "5190",
+      "end": "5190",
+      "icmptype": "",
+      "extra_options": 0,
+      "app_service": "",
+      "app_service_type": "",
+      "app_service_nagate": false,
+      "app_id": "",
+      "c_protocol": 0,
+      "c_range_start": 0,
+      "c_range_stop": 0,
+      "c_app_id": 0,
+      "c_icmp_type": 0
+    }
+  ],
+  "service_negate": false,
+  "action": "Drop",
+  "action_layer": "",
+  "action_captive_portal": false,
+  "action_usercheck": "",
+  "content": [
+    {
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30",
+      "name": "Any",
+      "type": "CpmiAnyObject"
+    }
+  ],
+  "content_negate": false,
+  "content_direction": "any",
+  "hits_level": "zero",
+  "hits_value": "0",
+  "hits_percent": "0%",
+  "comment": "",
+  "name": "",
+  "enabled": false,
+  "vpn": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "time": [
+    {
+      "name": "Any",
+      "uid": "97aeb369-9aea-11d5-bd16-0090272ccb30"
+    }
+  ],
+  "install_on": [
+    {
+      "name": "FW-WAW-01",
+      "uid": "b0b82b98-9837-4be2-8a53-a6e730a89f03"
+    }
+  ],
+  "rule_creator": "admin",
+  "rule_creation_time": 1629800130441,
+  "rule_modifier": "admin",
+  "rule_modify_time": 1629800130441,
+  "custom_filed1": "",
+  "custom_filed2": "",
+  "custom_filed3": "",
+  "json": "{\"source-negate\":true,\"destination-negate\":true,\"comments\":\"\",\"destination\":[{\"uid\":\"fffc4ec9-43f4-469a-b5f3-c1153f3ccfd5\",\"ipv4-address\":\"10.1.159.47\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.47\",\"type\":\"host\"}],\"meta-info\":{\"creator\":\"admin\",\"validation-state\":\"ok\",\"last-modify-time\":{\"iso-8601\":\"2021-08-24T12:15+0200\",\"posix\":1629800130441},\"creation-time\":{\"iso-8601\":\"2021-08-24T12:15+0200\",\"posix\":1629800130441},\"lock\":\"unlocked\",\"last-modifier\":\"admin\"},\"service-negate\":false,\"source\":[{\"uid\":\"ae2fb0c3-e531-433c-abd2-c9a4f7e8472f\",\"ipv4-address\":\"10.1.159.75\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"ip_10.1.159.75\",\"type\":\"host\"}],\"type\":\"access-rule\",\"content-direction\":\"any\",\"content\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"enabled\":true,\"hits\":{\"level\":\"zero\",\"percentage\":\"0%\",\"value\":0},\"uid\":\"ec90d170-d92c-45f2-9912-cc7c6037d571\",\"rule-number\":199,\"vpn\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"service\":[{\"uid\":\"97aeb44f-9aea-11d5-bd16-0090272ccb30\",\"port\":\"5190\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"AOL\",\"type\":\"service-tcp\"}],\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"content-negate\":false,\"action\":{\"uid\":\"6c488338-8eec-4103-ad21-cd461ac2c473\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Drop\",\"type\":\"RulebaseAction\"},\"time\":[{\"uid\":\"97aeb369-9aea-11d5-bd16-0090272ccb30\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Any\",\"type\":\"CpmiAnyObject\"}],\"install-on\":[{\"uid\":\"b0b82b98-9837-4be2-8a53-a6e730a89f03\",\"domain\":{\"uid\":\"41e821a0-3720-11e3-aa6e-0800200c9fde\",\"domain-type\":\"domain\",\"name\":\"SMC User\"},\"name\":\"FW-WAW-01\",\"type\":\"simple-gateway\"}],\"track\":{\"per-session\":false,\"per-connection\":true,\"alert\":\"none\",\"enable-firewall-session\":false,\"accounting\":false,\"type\":{\"uid\":\"598ead32-aa42-4615-90ed-f51a5928d41d\",\"domain\":{\"uid\":\"a0bbbc99-adef-4ef8-bb6d-defdefdefdef\",\"domain-type\":\"data domain\",\"name\":\"Check Point Data\"},\"name\":\"Log\",\"type\":\"Track\"}},\"action-settings\":{},\"custom-fields\":{\"field-1\":\"\",\"field-2\":\"\",\"field-3\":\"\"}}"
+}
